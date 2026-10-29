@@ -231,7 +231,7 @@ export const SERIES_SPECS = [
 			focusAuto: false,
 			focusPushAuto: false,
 			gain: false,
-			imageTransmission: false,
+			imageTransmission: : true,  // Works on one with v1.17 firmware anyway
 			install: false,
 			iris: false,
 			night: false,
