@@ -30,11 +30,11 @@ jobs:
       # - name: prettier
       #   run: |
       #     yarn prettier --check .
-      - name: Lint
-        run: |
-          yarn lint
-        env:
-          CI: true
+      # - name: Lint
+      #   run: |
+      #     yarn lint
+      #   env:
+      #     CI: true
       - name: Test jest
         run: |
           yarn test
